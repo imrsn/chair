@@ -105,18 +105,26 @@ gulp.task('pages', function() {
 
 // CSS style sheets
 gulp.task('styles', function() {
-	src.styles = 'src/styles/**/*.{css,less}';
-	return gulp.src('src/styles/bootstrap.less')
+	src.styles = 'src/styles/**/*.scss';
+	return gulp.src(src.styles)
 		.pipe($.plumber())
-		.pipe($.less({
-			sourceMap: !RELEASE,
-			sourceMapBasepath: __dirname
+		.pipe($.if(!RELEASE, $.sourcemaps.init()))
+		.pipe($.sass({
+			errLogToConsole: true
 		}))
-		.on('error', console.error.bind(console))
+		.pipe($.if(!RELEASE, $.sourcemaps.write({
+			includeContent: false,
+			sourceRoot: '.'
+		})))
+		.pipe($.if(!RELEASE, $.sourcemaps.init({loadMaps: true})))
 		.pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
 		.pipe($.csscomb())
 		.pipe($.if(RELEASE, $.minifyCss()))
-		.pipe(gulp.dest(DEST + '/css'))
+		.pipe($.if(!RELEASE, $.sourcemaps.write({
+			includeContent: false,
+			sourceRoot: '.'
+		})))
+		.pipe(gulp.dest(DEST + '/styles'))
 		.pipe($.size({title: 'styles'}));
 });
 
@@ -131,7 +139,9 @@ gulp.task('bundle', function(cb) {
 			throw new $.util.PluginError('webpack', err);
 		}
 
-		!!argv.verbose && $.util.log('[webpack]', stats.toString({colors: true}));
+		if (!!argv.verbose) {
+			$.util.log('[webpack]', stats.toString({colors: true}));
+		}
 
 		if (!started) {
 			started = true;
