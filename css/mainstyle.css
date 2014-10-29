@@ -1,16 +1,24 @@
-/**
- * CONTENTS
- *
- * TYPE
- * Headings.............H1–H6 styles.
- * Lists................UL and LI styles.
- * Paragraphs...........Basic text styles.
- *
- * OBJECTS
- * Wrappers.............Wrapping and constraining elements.
- *
- * COMPONENTS
- * Page-head............The main page header.
- * Page-foot............The main page footer.
- * Buttons..............Button elements.
- */
+body {
+	background-color: #eaf1f5;
+	font: 400 1.125em/1.38 'Open Sans';
+ 	color: rgb(85, 99, 110);
+}
+
+.main-nav {
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 1;
+	border-bottom: 1px dashed rgb(56, 66, 70);
+
+}
+
+.main-nav__logo {
+	margin: 0 1.5em;
+	float: left;
+}
+
+.main-nav__cta-button {
+	margin: 0 1.5em;
+	float: right;
+}
