@@ -8,61 +8,66 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
 
-<body>
+<body class="home">
 	<header class="main-nav">
 		<h1 class="main-nav__logo">ChairPro</h1>
-		<a class="main-nav__cta-button" href="https://itunes.apple.com/us/app/chairpro-for-hairstylists/id687970373?ls=1&mt=8">Get the App</a>
+			<div class="main-nav__buttons">
+				<a class="main-nav__cta-button" href="https://itunes.apple.com/us/app/chairpro-for-hairstylists/id687970373?ls=1&mt=8">Get the App</a>
+			</div>
 	</header>
 
-	<section class="testimonial">
-		<section class="testimonial--video">
-			<header class="testimonial--video__header">
-				<h1 class="testimonial--video__heading">ChairPro Video</h1>
+	<section class="container__home">
+
+		<section class="home__testimonial">
+			<section class="home__testimonial--video">
+				<header class="home__testimonial--video__header">
+					<h1 class="home__testimonial--video__heading">ChairPro Video</h1>
+				</header>
+				<iframe class="home__testimonial--video__video--jenni" width="560" height="315" src="//www.youtube.com/embed/56RW_8Qf418?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</section>
+			<section class="home__testimonial--quote">
+				<header class="home__testimonial--quote__header">
+					<h1 class="home__testimonial--quote__heading">Happy Customer home__testimonial</h1>
+				</header>
+				<blockquote class="home__testimonial--quote__quote--sophia">&ldquo;This is the <em>best app</em> for hairstylists by far! With ChairPro I've <em>finally</em> found an easy to use, beautiful looking app to keep my hairstyling business organized!&rdquo; &ndash; <b>Sophia Gomez</b>
+				</blockquote>
+			</section>
+			<section class="home__testimonial--cta">
+					<a class="home__testimonial__cta-button" href="https://itunes.apple.com/us/app/chairpro-for-hairstylists/id687970373?ls=1&mt=8">Get the App</a>
+			</section>
+		</section>
+
+		<section class="feature-list">
+			<header class="feautre-list__header">
+				<h1 class="feature-list__heading">Chairpro's Fantastic Feautures</h1>
 			</header>
-			<iframe class="testimonial--video__video--jenni" width="560" height="315" src="//www.youtube.com/embed/56RW_8Qf418?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			<p class="feature-list__text">When we set out to build the best app for stylists' we made sure to build what matters.</p>
+			<ul class="feature-list__list">
+				<li class="feature-list__item">Manage your business like a pro</li>
+				<li class="feature-list__item">Schedule and organize your appointment calendar</li>
+				<li class="feature-list__item">Cloud backups of all your clients</li>
+				<li class="feature-list__item">Automatically syncs between your iPhone and iPad</li>
+				<li class="feature-list__item">Customizable app themes to fit your personality</li>
+				<li class="feature-list__item">Catalouge your beautiful client photos</li>
+				<li class="feature-list__item">Get the App</li>
+			</ul>
 		</section>
-		<section class="testimonial--quote">
-			<header class="testimonial--quote__header">
-				<h1 class="testimonial--quote__heading">Happy Customer Testimonial</h1>
+
+		<section class="feature-request"> <!-- Need to make this a functional form -->
+			<header class="feature-request__header">
+				<h1 class="feature-request__heading">Want a New Feature?</h1>
 			</header>
-			<blockquote class="testimonial--quote__quote--sophia">&ldquo;This is the <em>best app</em> for hairstylists by far! With ChairPro I've <em>finally</em> found an easy to use, beautiful looking app to keep my hairstyling business organized!&rdquo; &ndash; <b>Sophia Gomez</b>
-			</blockquote>
+			<p class="feature-request__text">We listen to you. If there is something you want to see in ChairPro, just tell us. We add new features requested by our <em class="feature-request__emphasis">amazing</em> stylists all the time.</p>
+			<input type="text" id="contact-us" placeholder="Ask us a question or give us feedback.">
+			<button class="feature-request__contact-button">Contact Us</button>
 		</section>
-		<section class="testimonial--cta">
-				<a class="testimonial__cta-button" href="https://itunes.apple.com/us/app/chairpro-for-hairstylists/id687970373?ls=1&mt=8">Get the App</a>
-		</section>
+
+		<footer class="main-footer">
+			<p class="main-footer__text">Contact Us</p>
+			<a class="main-footer__cta-button" href="https://itunes.apple.com/us/app/chairpro-for-hairstylists/id687970373?ls=1&mt=8">Get the App</a>
+		</footer>
+
 	</section>
-
-	<section class="feature-list">
-		<header class="feautre-list__header">
-			<h1 class="feature-list__heading">Chairpro's Fantastic Feautures</h1>
-		</header>
-		<p class="feature-list__text">When we set out to build the best app for stylists' we made sure to build what matters.</p>
-		<ul class="feature-list__list">
-			<li class="feature-list__item">Manage your business like a pro</li>
-			<li class="feature-list__item">Schedule and organize your appointment calendar</li>
-			<li class="feature-list__item">Cloud backups of all your clients</li>
-			<li class="feature-list__item">Automatically syncs between your iPhone and iPad</li>
-			<li class="feature-list__item">Customizable app themes to fit your personality</li>
-			<li class="feature-list__item">Catalouge your beautiful client photos</li>
-			<li class="feature-list__item">Get the App</li>
-		</ul>
-	</section>
-
-	<section class="feature-request"> <!-- Need to make this a functional form -->
-		<header class="feature-request__header">
-			<h1 class="feature-request__heading">Want a New Feature?</h1>
-		</header>
-		<p class="feature-request__text">We listen to you. If there is something you want to see in ChairPro, just tell us. We add new features requested by our <em class="feature-request__emphasis">amazing</em> stylists all the time.</p>
-		<input type="text" id="contact-us" placeholder="Ask us a question or give us feedback.">
-		<button class="feature-request__contact-button">Contact Us</button>
-	</section>
-
-	<footer class="main-footer">
-		<p class="main-footer__text">Contact Us</p>
-		<a class="main-footer__cta-button" href="https://itunes.apple.com/us/app/chairpro-for-hairstylists/id687970373?ls=1&mt=8">Get the App</a>
-
-	</footer>
 
 </body>
 </html>
