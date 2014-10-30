@@ -14,6 +14,11 @@
 	 	font: 400 1em 'Open Sans';
 	}
 
+	.home {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
 /* NAVIGATION */
 /**************/
 
@@ -30,6 +35,11 @@
 		z-index: 1;
 		}
 
+		.main-nav__buttons {
+			position: absolute;
+			right: 16px;
+		}
+
 		.main-nav__logo {
 			float: left;
 			font-size: 1.3em;
@@ -37,9 +47,30 @@
 		}
 
 		.main-nav__cta-button {
-			float: right;
 			font-size: .8em;
 			margin: 0 1.5em;
+		}
+
+/* CONTAINERS */
+/***************/
+
+	.container__home {
+
+		}
+
+		.home__testimonial {
+
+
+		}
+
+		.feature-list {
+
+
+		}
+
+		.feature-request {
+
+
 		}
 
 /* FOOTER */
@@ -55,3 +86,15 @@
 		width: 100%;
 		z-index: 2;
 	}
+
+		.main-footer__text {
+			float: left;
+			font-size: 1em;
+			margin: 0 1.5em;
+		}
+
+		.main-footer__cta-button {
+			float: right;
+			font-size: .8em;
+			margin: 0 1.5em;
+		}
