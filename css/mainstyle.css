@@ -64,42 +64,57 @@
 		.testimonial {
 			background-color: rgb(226, 236, 241);
 			line-height: 1.25em;
-			padding: 30px;
 		}
 
-			.testimonial__video-heading {
-				font-size: 0;
-				visibility: hidden;
-			}
-
-			.testimonial__video-jenni {
-				display: block;
+			.testimonial__container {
 				margin: 0 auto;
-				width: 560px;
+				width: 960px;
 			}
 
-			.testimonial__quote-heading {
-				font-size: 0;
-				visibility: hidden;
-			}
+				.testimonial__video {
 
-			.testimonial__quote-sophia {
-				font: 400 1.8em 'Josefin Slab', serif;
-			}
+				}
 
-			.testimonial__cta-button {
-				background-color: rgb(255, 36, 102);
-				border-radius: 10px;
-				color: rgb(255, 255, 255);
-				display: block;
-				font: 700 1.5em 'Open Sans', sans-serif;
-				height: 66px;
-				line-height: 66px;
-				margin: 0 auto;
-				text-align: center;
-				text-decoration: none;
-				width: 280px;
-			}
+				.testimonial__video-heading {
+					font-size: 0;
+					visibility: hidden;
+				}
+
+				.testimonial__video-jenni {
+					display: block;
+					margin: 0 auto;
+					width: 560px;
+				}
+
+				.testimonial__quote {
+
+				}
+
+				.testimonial__quote-heading {
+					font-size: 0;
+					visibility: hidden;
+				}
+
+				.testimonial__quote-sophia {
+					font: 400 1.8em 'Josefin Slab', serif;
+				}
+
+				.testimonial_cta {
+
+				}
+				.testimonial__cta-button {
+					background-color: rgb(255, 36, 102);
+					border-radius: 10px;
+					color: rgb(255, 255, 255);
+					display: block;
+					font: 700 1.5em 'Open Sans', sans-serif;
+					height: 66px;
+					line-height: 66px;
+					margin: 0 auto;
+					text-align: center;
+					text-decoration: none;
+					width: 280px;
+				}
 
 		.feature-list {
 
