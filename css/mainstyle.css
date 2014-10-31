@@ -111,7 +111,7 @@
 	}
 
 	.testimonial__quote-sophia {
-		font: 400 1.8em 'Josefin Slab', serif;
+		font: 400 1.8em/1.5 'Josefin Slab', serif;
 	}
 
 	.testimonial_cta {
