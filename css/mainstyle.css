@@ -15,7 +15,7 @@
 	 }
 
 	.home {
-		padding-top: 30px;
+		padding-top: 50px;
 		padding-bottom: 50px;
 	}
 
@@ -191,6 +191,9 @@
 
 		.testimonial__container {
 			width: 560px;
+		}
+			.testimonial__quote-sophia {
+			font: 400 1.6em 'Josefin Slab', serif;
 		}
 	}
 
