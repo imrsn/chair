@@ -54,14 +54,39 @@
 /* CONTAINERS */
 /***************/
 
-	.container__home {
+	.home-container {
 
 		}
+
+	/* TESTIMONIAL */
+	/***************/
 
 		.home__testimonial {
-
-
+			background-color: rgb(226, 236, 241);
+			padding: 30px;
 		}
+
+			.home__testimonial-video__heading {
+				visibility: hidden;
+				font-size: 0;
+			}
+
+			.home__testimonial-video__jenni-video {
+				width: 560px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.home__testimonial-quote__heading {
+				visibility: hidden;
+				font-size: 0;
+			}
+
+			.home__testimonial-quote__sophia-quote {
+				font: 400 1.5em 'Josefin Slab';
+				line-height: 1.15em;
+			}
 
 		.feature-list {
 
