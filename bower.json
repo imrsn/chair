@@ -1,0 +1,9 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "inuit-starter-kit": "~0.2.8"
+  }
+}
