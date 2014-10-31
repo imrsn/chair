@@ -12,7 +12,7 @@
 		background-color: #eaf1f5;
 	 	color: rgb(85, 99, 110);
 	 	font: 400 1em 'Open Sans', sans-serif;
-	}
+	 }
 
 	.home {
 		padding-top: 30px;
@@ -33,7 +33,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 1;
-		}
+	}
 
 		.main-nav__buttons {
 			position: absolute;
@@ -64,34 +64,34 @@
 		.testimonial {
 			background-color: rgb(226, 236, 241);
 			padding: 30px;
-			}
+		}
 
 			.testimonial-video__heading {
 				visibility: hidden;
 				font-size: 0;
-				}
+			}
 
 			.testimonial-video__jenni-video {
 				width: 560px;
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				}
+			}
 
 			.testimonial-quote__heading {
 				visibility: hidden;
 				font-size: 0;
-				}
+			}
 
 			.testimonial-quote__sophia-quote {
 				font: 400 1.5em 'Josefin Slab', serif;
 				line-height: 1.15em;
-				}
+			}
 
 			.testimonial-cta {
 				margin-left: auto;
 				margin-right: auto;
-				}
+			}
 
 			.testimonial-cta__button {
 				background-color: rgb(255, 36, 102);
@@ -103,7 +103,7 @@
 				padding-bottom:20px;
 				padding-left: 40px;
 				border-radius: 10px;
-				}
+			}
 
 		.feature-list {
 
