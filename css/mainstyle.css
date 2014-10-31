@@ -95,13 +95,15 @@
 
 			.testimonial-cta__button {
 				background-color: rgb(255, 36, 102);
-				font: 700 1em 'Open Sans', sans-serif;
+				font: 700 1.5em 'Open Sans', sans-serif;
 				color: rgb(255, 255, 255);
 				text-decoration: none;
-				padding-top: 20px;
-				padding-right: 40px;
-				padding-bottom:20px;
-				padding-left: 40px;
+				text-align: center;
+				line-height: 76px;
+				width: 240px;
+				height: 80px;
+				display: block;
+				margin: 0 auto;
 				border-radius: 10px;
 			}
 
