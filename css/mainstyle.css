@@ -11,7 +11,7 @@
 	body {
 		background-color: #eaf1f5;
 	 	color: rgb(85, 99, 110);
-	 	font: 400 1em 'Open Sans';
+	 	font: 400 1em 'Open Sans', sans-serif;
 	}
 
 	.home {
@@ -84,7 +84,7 @@
 				}
 
 			.home__testimonial-quote__sophia-quote {
-				font: 400 1.5em 'Josefin Slab';
+				font: 400 1.5em 'Josefin Slab', serif;
 				line-height: 1.15em;
 				}
 
@@ -95,7 +95,7 @@
 
 			.home__testimonial-cta__button {
 				background-color: rgb(255, 36, 102);
-				font: 700 1em 'Open Sans';
+				font: 700 1em 'Open Sans', sans-serif;
 				color: rgb(255, 255, 255);
 				text-decoration: none;
 				padding-top: 20px;
