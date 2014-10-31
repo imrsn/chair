@@ -15,7 +15,6 @@
 	 }
 
 	.home {
-		padding-top: 50px;
 		padding-bottom: 50px;
 	}
 
@@ -47,8 +46,17 @@
 		}
 
 		.main-nav__cta-button {
-			font-size: .8em;
-			margin: 0 1.5em;
+			background-color: rgb(255, 36, 102);
+			border-radius: 4px;
+			color: rgb(255, 255, 255);
+			display: block;
+			font: 700 .7em 'Open Sans', sans-serif;
+			height: 26px;
+			line-height: 26px;
+			margin: 0 auto;
+			text-align: center;
+			text-decoration: none;
+			width: 90px;
 		}
 
 /* CONTAINERS */
@@ -67,6 +75,8 @@
 
 	.testimonial__container {
 		margin: 0 auto;
+		padding-bottom: 50px;
+		padding-top: 80px;
 	}
 
 	.testimonial__video {
@@ -203,4 +213,18 @@
 			font: 400 1.5em 'Josefin Slab', serif;
 		}
 	}
+
+/* 480 */
+/*******/
+
+	@media (max-width: 480px) {
+
+		.testimonial__container {
+			width: 320px;
+		}
+			.testimonial__quote-sophia {
+			font: 400 1em 'Josefin Slab', serif;
+		}
+	}
+
 
