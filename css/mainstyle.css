@@ -42,7 +42,14 @@
 		.main-nav__logo {
 			float: left;
 			font-size: 1.3em;
-			margin: 0 1.5em;
+			margin: 0 .6em 0 1.5em;
+		}
+
+		.main-nav__subhead {
+			float: left;
+			font-size: .8em;
+			padding-top: 6px;
+			margin: 0 ;
 		}
 
 		.main-nav__cta-button {
@@ -135,10 +142,11 @@
 		width: 280px;
 	}
 
-	.feature-list {
-	}
+/* FEATURES */
+/************/
 
-	.feature-request {
+	.features {
+		margin: 0 auto;
 	}
 
 /* FOOTER */
@@ -174,6 +182,10 @@
 
 	@media (min-width: 960px) {
 
+		.features {
+			width: 960px;
+		}
+
 		.testimonial__container {
 			width: 960px;
 		}
@@ -191,10 +203,15 @@
 
 	@media (max-width: 640px) {
 
+		.features {
+			width: 560px;
+		}
+
 		.testimonial__container {
 			width: 560px;
 		}
-			.testimonial__quote-sophia {
+
+		.testimonial__quote-sophia {
 			font: 400 1.6em/1.3 'Josefin Slab', serif;
 		}
 	}
@@ -204,10 +221,14 @@
 
 	@media (max-width: 560px) {
 
+		.features {
+			width
+		}
+
 		.testimonial__container {
 			width: 480px;
 		}
-			.testimonial__quote-sophia {
+		.testimonial__quote-sophia {
 			font: 400 1.5em/1.2 'Josefin Slab', serif;
 		}
 	}
