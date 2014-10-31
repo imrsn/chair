@@ -55,88 +55,82 @@
 /***************/
 
 	.home-container {
-
 		}
 
-	/* TESTIMONIAL */
-	/***************/
+/* TESTIMONIAL */
+/***************/
 
-		.testimonial {
-			background-color: rgb(226, 236, 241);
-			line-height: 1.25em;
+	.testimonial {
+		background-color: rgb(226, 236, 241);
+		line-height: 1.25em;
+	}
+
+	.testimonial__container {
+		margin: 0 auto;
+	}
+
+	.testimonial__video {
 		}
 
-		.testimonial__container {
-			margin: 0 auto;
-		}
+	.testimonial__video-heading {
+		font-size: 0;
+		visibility: hidden;
+	}
 
-		.testimonial__video {
+	.testimonial__responsive-video-wrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
 
-		}
+	.testimonial__responsive-video-wrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 
-		.testimonial__video-heading {
-			font-size: 0;
-			visibility: hidden;
-		}
+	.testimonial__video-jenni {
+		display: block;
+		margin: 0 auto;
+		width: 560px;
+	}
 
-		.testimonial__responsive-video-wrapper {
-			position: relative;
-			padding-bottom: 56.25%; /* 16:9 */
-			padding-top: 25px;
-			height: 0;
-		}
+	.testimonial__quote {
+	}
 
-		.testimonial__responsive-video-wrapper iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
+	.testimonial__quote-heading {
+		font-size: 0;
+		visibility: hidden;
+	}
 
-		.testimonial__video-jenni {
-			display: block;
-			margin: 0 auto;
-			width: 560px;
-		}
+	.testimonial__quote-sophia {
+		font: 400 1.8em 'Josefin Slab', serif;
+	}
 
-		.testimonial__quote {
+	.testimonial_cta {
+	}
 
-		}
-
-		.testimonial__quote-heading {
-			font-size: 0;
-			visibility: hidden;
-		}
-
-		.testimonial__quote-sophia {
-			font: 400 1.8em 'Josefin Slab', serif;
-		}
-
-		.testimonial_cta {
-
-		}
-
-		.testimonial__cta-button {
-			background-color: rgb(255, 36, 102);
-			border-radius: 10px;
-			color: rgb(255, 255, 255);
-			display: block;
-			font: 700 1.5em 'Open Sans', sans-serif;
-			height: 66px;
-			line-height: 66px;
-			margin: 0 auto;
-			text-align: center;
-			text-decoration: none;
-			width: 280px;
-		}
+	.testimonial__cta-button {
+		background-color: rgb(255, 36, 102);
+		border-radius: 10px;
+		color: rgb(255, 255, 255);
+		display: block;
+		font: 700 1.5em 'Open Sans', sans-serif;
+		height: 66px;
+		line-height: 66px;
+		margin: 0 auto;
+		text-align: center;
+		text-decoration: none;
+		width: 280px;
+	}
 
 	.feature-list {
-
 	}
 
 	.feature-request {
-
 	}
 
 /* FOOTER */
@@ -194,6 +188,19 @@
 		}
 			.testimonial__quote-sophia {
 			font: 400 1.6em 'Josefin Slab', serif;
+		}
+	}
+
+/* 560 */
+/*******/
+
+	@media (max-width: 560px) {
+
+		.testimonial__container {
+			width: 480px;
+		}
+			.testimonial__quote-sophia {
+			font: 400 1.5em 'Josefin Slab', serif;
 		}
 	}
 
