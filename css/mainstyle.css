@@ -79,9 +79,6 @@
 		padding-top: 80px;
 	}
 
-	.testimonial__video {
-		}
-
 	.testimonial__video-heading {
 		font-size: 0;
 		visibility: hidden;
@@ -106,9 +103,6 @@
 		display: block;
 		margin: 0 auto;
 		width: 560px;
-	}
-
-	.testimonial__quote {
 	}
 
 	.testimonial__quote-heading {
