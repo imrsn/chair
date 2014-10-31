@@ -61,39 +61,39 @@
 	/* TESTIMONIAL */
 	/***************/
 
-		.home__testimonial {
+		.testimonial {
 			background-color: rgb(226, 236, 241);
 			padding: 30px;
 			}
 
-			.home__testimonial-video__heading {
+			.testimonial-video__heading {
 				visibility: hidden;
 				font-size: 0;
 				}
 
-			.home__testimonial-video__jenni-video {
+			.testimonial-video__jenni-video {
 				width: 560px;
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
 				}
 
-			.home__testimonial-quote__heading {
+			.testimonial-quote__heading {
 				visibility: hidden;
 				font-size: 0;
 				}
 
-			.home__testimonial-quote__sophia-quote {
+			.testimonial-quote__sophia-quote {
 				font: 400 1.5em 'Josefin Slab', serif;
 				line-height: 1.15em;
 				}
 
-			.home__testimonial-cta {
+			.testimonial-cta {
 				margin-left: auto;
 				margin-right: auto;
 				}
 
-			.home__testimonial-cta__button {
+			.testimonial-cta__button {
 				background-color: rgb(255, 36, 102);
 				font: 700 1em 'Open Sans', sans-serif;
 				color: rgb(255, 255, 255);
