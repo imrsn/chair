@@ -114,6 +114,10 @@
 		font: 400 1.8em/1.5 'Josefin Slab', serif;
 	}
 
+	.testimonial__quote-sophia b {
+		color: #8da5b7;
+	}
+
 	.testimonial_cta {
 	}
 
@@ -191,7 +195,7 @@
 			width: 560px;
 		}
 			.testimonial__quote-sophia {
-			font: 400 1.6em 'Josefin Slab', serif;
+			font: 400 1.6em/1.3 'Josefin Slab', serif;
 		}
 	}
 
@@ -204,7 +208,7 @@
 			width: 480px;
 		}
 			.testimonial__quote-sophia {
-			font: 400 1.5em 'Josefin Slab', serif;
+			font: 400 1.5em/1.2 'Josefin Slab', serif;
 		}
 	}
 
@@ -217,7 +221,7 @@
 			width: 320px;
 		}
 			.testimonial__quote-sophia {
-			font: 400 1em 'Josefin Slab', serif;
+			font: 400 1em/1.2 'Josefin Slab', serif;
 		}
 	}
 
