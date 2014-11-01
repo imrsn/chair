@@ -131,8 +131,23 @@
 /* FEATURES */
 /************/
 
+	.features-bgfill {
+		background-color: #eaf1f5;
+		padding: 20px 0;
+	}
+
 	.features {
 		margin: 0 auto;
+	}
+
+	.features__heading {
+		font: 300 2em/.5 "Open Sans", sans-serif;
+		text-align: center;
+	}
+
+	.features__subhead {
+		font-size: .9em;
+		text-align: center;
 	}
 
 /* FOOTER */
@@ -168,18 +183,15 @@
 
 	@media (min-width: 960px) {
 
-		.features {
+		.features, .testimonial {
 			width: 960px;
 		}
 
-		.testimonial {
-			width: 960px;
-		}
 	}
 
 	@media (max-width: 960px) {
 
-		.testimonial {
+		.features, .testimonial {
 			width: 640px;
 		}
 	}
@@ -189,11 +201,7 @@
 
 	@media (max-width: 640px) {
 
-		.features {
-			width: 560px;
-		}
-
-		.testimonial {
+		.features, .testimonial {
 			width: 560px;
 		}
 
@@ -207,13 +215,10 @@
 
 	@media (max-width: 560px) {
 
-		.features {
-			width
-		}
-
-		.testimonial {
+		.features, .testimonial {
 			width: 480px;
 		}
+
 		.testimonial__quote-sophia {
 			font: 400 1.5em/1.2 'Josefin Slab', serif;
 		}
@@ -224,7 +229,7 @@
 
 	@media (max-width: 480px) {
 
-		.testimonial {
+		.features, .testimonial {
 			width: 320px;
 		}
 			.testimonial__quote-sophia {
