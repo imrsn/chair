@@ -101,11 +101,6 @@
 		height: 100%;
 	}
 
-	.testimonial__quote-heading {
-		font-size: 0;
-		visibility: hidden;
-	}
-
 	.testimonial__quote-sophia {
 		font: 400 1.8em/1.5 'Josefin Slab', serif;
 	}
