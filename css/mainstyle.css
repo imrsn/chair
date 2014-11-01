@@ -9,7 +9,7 @@
 /* BODY */
 /********/
 	body {
-		background-color: #eaf1f5;
+		background-color: rgb(226, 236, 241);
 	 	color: rgb(85, 99, 110);
 	 	font: 400 1em 'Open Sans', sans-serif;
 	 }
@@ -70,17 +70,15 @@
 /***************/
 
 	.home-container {
+		background-color: rgb(226, 236, 241);
+		line-height: 1.25em;
 		}
 
 /* TESTIMONIAL */
 /***************/
 
 	.testimonial {
-		background-color: rgb(226, 236, 241);
 		line-height: 1.25em;
-	}
-
-	.testimonial__container {
 		margin: 0 auto;
 		padding-bottom: 50px;
 		padding-top: 80px;
@@ -184,14 +182,14 @@
 			width: 960px;
 		}
 
-		.testimonial__container {
+		.testimonial {
 			width: 960px;
 		}
 	}
 
 	@media (max-width: 960px) {
 
-		.testimonial__container {
+		.testimonial {
 			width: 640px;
 		}
 	}
@@ -205,7 +203,7 @@
 			width: 560px;
 		}
 
-		.testimonial__container {
+		.testimonial {
 			width: 560px;
 		}
 
@@ -223,7 +221,7 @@
 			width
 		}
 
-		.testimonial__container {
+		.testimonial {
 			width: 480px;
 		}
 		.testimonial__quote-sophia {
@@ -236,7 +234,7 @@
 
 	@media (max-width: 480px) {
 
-		.testimonial__container {
+		.testimonial {
 			width: 320px;
 		}
 			.testimonial__quote-sophia {
