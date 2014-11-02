@@ -203,7 +203,7 @@
 	}
 
 
-/* CONTACT */
+/* CTA*/
 /***********/
 
 	.bottom-cta {
@@ -235,7 +235,7 @@
 		width: 100%;
 	}
 
-	.main-footer__paragraph {
+	.main-footer__contact-link {
 		float: left;
 		font-size: 1em;
 		margin: 0 1.5em;
