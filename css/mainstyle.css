@@ -146,10 +146,14 @@
 	}
 
 	.features__list {
-	    margin: 0 auto;
+		margin: 0;
 	    -webkit-columns: 440px;
   		-moz-columns: 440px;
   		columns: 440px;
+  		padding: 0;
+		-webkit-column-gap: 2em;
+  		-moz-column-gap: 2em;
+		column-gap: 2em;
 	}
 
 	li {
@@ -164,9 +168,15 @@
         break-inside: avoid; /* IE 10+ */
 	}
 
+	.features__link {
+		text-decoration: none;
+		color: rgb(85, 99, 110);
+	}
+
 	.features__item-manage {
 		background-image: url("../img/feautres__item-manage.jpg");
-
+		text-decoration: none;
+		color: rgb(85, 99, 110);
 	}
 
 	.features__item-appointment {
