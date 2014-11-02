@@ -191,7 +191,7 @@
 	}
 
 	.features__item-photos {
-		background-image: url("../img/features__item-manage.jpg");
+		background-image: url("../img/features__item-photos.gif");
 	}
 
 	.features__item-themes {
@@ -199,10 +199,27 @@
 	}
 
 	.features__item-cta {
-		background-image: url("../img/features__item-manage.jpg");
+		background-image: url("../img/features__item-cta.png");
 	}
 
 
+/* CONTACT */
+/***********/
+
+	.bottom-cta {
+		width: 960px;
+		margin: 0 auto;
+		padding: 40px 0 50px;
+	}
+	.bottom-cta__heading {
+		color: #2f373d;
+		font: 300 3em/.1 "Open Sans", sans-serif;
+		text-align: center;
+	}
+
+	.bottom-cta__paragraph {
+		text-align: center;
+	}
 
 
 /* FOOTER */
