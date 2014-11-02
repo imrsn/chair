@@ -47,6 +47,10 @@
 			margin: 0 ;
 		}
 
+
+/* BUTTONS */
+/***********/
+
 		.pink-button__thin{
 			background-color: rgb(255, 36, 102);
 			border-radius: 4px;
@@ -60,14 +64,6 @@
 			text-align: center;
 			text-decoration: none;
 			width: 90px;
-		}
-
-/* CONTAINERS */
-/***************/
-
-	.home-container {
-		background-color: rgb(226, 236, 241);
-		line-height: 1.25em;
 		}
 
 /* TESTIMONIAL */
