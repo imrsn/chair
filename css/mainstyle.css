@@ -18,10 +18,6 @@
 		padding-bottom: 50px;
 	}
 
-	.clearfix {
-		clear: both;
-	}
-
 /* NAVIGATION */
 /**************/
 
@@ -151,41 +147,46 @@
 
 	.features__list {
 	    margin: 0 auto;
-	    text-align: center;
+	    -webkit-columns: 440px;
+  		-moz-columns: 440px;
+  		columns: 440px;
 	}
 
 	li {
-		display: inline-block;
 		list-style: none;
 		background-size: 440px 275px;
 		background-repeat: no-repeat;
-		padding-top: 285px;
-		font-size: 1.5em;
+		padding: 280px 0 40px;
+		font-size: 1.3em;
 		text-align: left;
+		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+        page-break-inside: avoid; /* Firefox */
+        break-inside: avoid; /* IE 10+ */
 	}
 
 	.features__item-manage {
 		background-image: url("../img/feautres__item-manage.jpg");
-		float: left;
-		width: 440px;
+
 	}
 
 	.features__item-appointment {
 		background-image: url("../img/feautres__item-manage.jpg");
-		float: right;
-		width: 440px;
 	}
 
 	.features__item-backup {
 		background-image: url("../img/feautres__item-manage.jpg");
-		float: left;
-		width: 440px;
 	}
 
 	.features__item-syncing {
 		background-image: url("../img/feautres__item-manage.jpg");
-		float: right;
-		width: 440px;
+	}
+
+	.features__item-themes {
+		background-image: url("../img/feautres__item-manage.jpg");
+	}
+
+	.features__item-cta {
+		background-image: url("../img/feautres__item-manage.jpg");
 	}
 
 
