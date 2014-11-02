@@ -47,7 +47,7 @@
 			margin: 0 ;
 		}
 
-		.main-nav__cta-button {
+		.pink-button__thin{
 			background-color: rgb(255, 36, 102);
 			border-radius: 4px;
 			color: rgb(255, 255, 255);
@@ -55,7 +55,6 @@
 			font: 700 .7em 'Open Sans', sans-serif;
 			height: 26px;
 			line-height: 26px;
-			margin: 0 auto;
 			position: absolute;
 			right: 26px;
 			text-align: center;
@@ -228,10 +227,9 @@
 		background-color: rgba(56, 66, 70, .9);
 		border-top: 1px solid rgb(52, 61, 65);
 		bottom: 0;
-		height: 60px;
-		left: 0;
+		height: 30px;
+		padding: 8px 0 0;
 		position:fixed;
-		right: 0;
 		width: 100%;
 	}
 
@@ -239,12 +237,7 @@
 		float: left;
 		font-size: 1em;
 		margin: 0 1.5em;
-	}
-
-	.main-footer__cta-button {
-		float: right;
-		font-size: .8em;
-		margin: 0 1.5em;
+		color: rgb(157, 171, 178);
 	}
 
 /* RESPONSIVE */
