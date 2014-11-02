@@ -177,29 +177,29 @@
 	}
 
 	.features__item-manage {
-		background-image: url("../img/feautres__item-manage.jpg");
+		background-image: url("../img/features__item-manage.jpg");
 		text-decoration: none;
 		color: rgb(85, 99, 110);
 	}
 
 	.features__item-appointment {
-		background-image: url("../img/feautres__item-manage.jpg");
+		background-image: url("../img/features__item-appointment.jpg");
 	}
 
 	.features__item-cloud {
-		background-image: url("../img/feautres__item-manage.jpg");
+		background-image: url("../img/features__item-cloud.jpg");
 	}
 
 	.features__item-photos {
-		background-image: url("../img/feautres__item-manage.jpg");
+		background-image: url("../img/features__item-manage.jpg");
 	}
 
 	.features__item-themes {
-		background-image: url("../img/feautres__item-manage.jpg");
+		background-image: url("../img/features__item-manage.jpg");
 	}
 
 	.features__item-cta {
-		background-image: url("../img/feautres__item-manage.jpg");
+		background-image: url("../img/features__item-manage.jpg");
 	}
 
 
