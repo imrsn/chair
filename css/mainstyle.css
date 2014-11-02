@@ -35,13 +35,13 @@
 	}
 
 		.main-nav__logo {
-			float: left;
+			display: inline;
 			font-size: 1.3em;
 			margin: 0 .6em 0 1.5em;
 		}
 
 		.main-nav__subhead {
-			float: left;
+			display: inline;
 			font-size: .8em;
 			padding-top: 6px;
 			margin: 0 ;
@@ -51,7 +51,7 @@
 			background-color: rgb(255, 36, 102);
 			border-radius: 4px;
 			color: rgb(255, 255, 255);
-			display: block;
+			display: inline-block;
 			font: 700 .7em 'Open Sans', sans-serif;
 			height: 26px;
 			line-height: 26px;
