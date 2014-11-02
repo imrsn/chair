@@ -82,7 +82,8 @@
 	}
 
 	.testimonial__heading {
-		font: 300 2em/1.9 "Open Sans", sans-serif;
+		color: #2f373d;
+		font: 300 3em/1.9 "Open Sans", sans-serif;
 		text-align: center;
 	}
 
@@ -128,7 +129,7 @@
 
 	.features-bgfill {
 		background-color: #eaf1f5;
-		padding: 20px 0;
+		padding: 40px 0;
 	}
 
 	.features {
@@ -136,7 +137,8 @@
 	}
 
 	.features__heading {
-		font: 300 2em/.5 "Open Sans", sans-serif;
+		color: #2f373d;
+		font: 300 3em/.1 "Open Sans", sans-serif;
 		text-align: center;
 	}
 
@@ -160,8 +162,9 @@
 		list-style: none;
 		background-size: 440px 275px;
 		background-repeat: no-repeat;
-		padding: 280px 0 40px;
+		padding: 280px 0 30px;
 		font-size: 1.3em;
+		margin-top: 20px;
 		text-align: left;
 		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
         page-break-inside: avoid; /* Firefox */
