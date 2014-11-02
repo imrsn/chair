@@ -18,6 +18,10 @@
 		padding-bottom: 50px;
 	}
 
+	.clearfix {
+		clear: both;
+	}
+
 /* NAVIGATION */
 /**************/
 
@@ -166,7 +170,19 @@
 		width: 440px;
 	}
 
-		.features__item-appointment {
+	.features__item-appointment {
+		background-image: url("../img/feautres__item-manage.jpg");
+		float: right;
+		width: 440px;
+	}
+
+	.features__item-backup {
+		background-image: url("../img/feautres__item-manage.jpg");
+		float: left;
+		width: 440px;
+	}
+
+	.features__item-syncing {
 		background-image: url("../img/feautres__item-manage.jpg");
 		float: right;
 		width: 440px;
