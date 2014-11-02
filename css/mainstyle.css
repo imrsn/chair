@@ -145,6 +145,36 @@
 		text-align: center;
 	}
 
+	.features__list {
+	    margin: 0 auto;
+	    text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		background-size: 440px 275px;
+		background-repeat: no-repeat;
+		padding-top: 285px;
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+	.features__item-manage {
+		background-image: url("../img/feautres__item-manage.jpg");
+		float: left;
+		width: 440px;
+	}
+
+		.features__item-appointment {
+		background-image: url("../img/feautres__item-manage.jpg");
+		float: right;
+		width: 440px;
+	}
+
+
+
+
 /* FOOTER */
 /**********/
 	.main-footer {
