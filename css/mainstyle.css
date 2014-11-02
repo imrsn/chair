@@ -51,19 +51,32 @@
 /* BUTTONS */
 /***********/
 
-		.pink-button__thin{
-			background-color: rgb(255, 36, 102);
-			border-radius: 4px;
-			color: rgb(255, 255, 255);
-			display: inline-block;
-			font: 700 .7em 'Open Sans', sans-serif;
-			height: 26px;
-			line-height: 26px;
-			position: absolute;
-			right: 26px;
-			text-align: center;
-			text-decoration: none;
-			width: 90px;
+	.pink-button {
+		background-color: rgb(255, 36, 102);
+		color: rgb(255, 255, 255);
+		height: 66px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.cta-button {
+		border-radius: 10px;
+		display: block;
+		font: 700 1.5em 'Open Sans', sans-serif;
+		line-height: 66px;
+		margin: 0 auto;
+		width: 280px;
+	}
+
+	.thin-button {
+		border-radius: 4px;
+		display: inline-block;
+		font: 700 .7em 'Open Sans', sans-serif;
+		height: 26px;
+		line-height: 26px;
+		position: absolute;
+		right: 26px;
+		width: 90px;
 		}
 
 /* TESTIMONIAL */
@@ -103,20 +116,6 @@
 
 	.testimonial__quote b {
 		color: #8da5b7;
-	}
-
-	.pink-button {
-		background-color: rgb(255, 36, 102);
-		border-radius: 10px;
-		color: rgb(255, 255, 255);
-		display: block;
-		font: 700 1.5em 'Open Sans', sans-serif;
-		height: 66px;
-		line-height: 66px;
-		margin: 0 auto;
-		text-align: center;
-		text-decoration: none;
-		width: 280px;
 	}
 
 /* FEATURES */
