@@ -320,6 +320,10 @@
  		.testimonial__heading {
 			font: 300 2.5em/1.9 "Open Sans", sans-serif;
 		}
+
+		.features__heading {
+			font: 300 2.5em/.1 "Open Sans", sans-serif;
+		}
  	}
 
 /* 640 */
@@ -334,8 +338,6 @@
 		.testimonial__quote {
 			font: 400 1.6em/1.3 'Josefin Slab', serif;
 		}
-
-
 	}
 
 /* 560 */
@@ -354,6 +356,10 @@
 		.testimonial__quote {
 			font: 400 1.5em/1.2 'Josefin Slab', serif;
 		}
+
+		.features__heading {
+			font: 300 2em/.1 "Open Sans", sans-serif;
+		}
 	}
 
 /* 480 */
@@ -371,6 +377,10 @@
 
 		.testimonial__quote {
 			font: 400 1em/1.2 'Josefin Slab', serif;
+		}
+
+		.features__heading {
+			font: 700 1.2em/.1 "Open Sans", sans-serif;
 		}
 
 		.main-nav__subhead {
