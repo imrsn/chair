@@ -162,14 +162,6 @@
 		column-gap: 2em;
 	}
 
-	li {
-		list-style: none;
-		text-align: left;
-		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
-        page-break-inside: avoid; /* Firefox */
-        break-inside: avoid; /* IE 10+ */
-	}
-
 	.features__item--manage {
 		background-image: url("../img/features__item-manage.jpg");
 		background-size: 440px 275px;
