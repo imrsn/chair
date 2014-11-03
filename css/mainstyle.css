@@ -311,6 +311,17 @@
 		}
 	}
 
+	@media (max-width: 960px) {
+
+ 		.features, .testimonial {
+ 			width: 640px;
+ 		}
+
+ 		.testimonial__heading {
+			font: 300 2.5em/1.9 "Open Sans", sans-serif;
+		}
+ 	}
+
 /* 640 */
 /*******/
 
@@ -323,6 +334,8 @@
 		.testimonial__quote {
 			font: 400 1.6em/1.3 'Josefin Slab', serif;
 		}
+
+
 	}
 
 /* 560 */
@@ -332,6 +345,10 @@
 
 		.testimonial, .features {
 			width: 480px;
+		}
+
+		.testimonial__heading {
+			font: 300 2em/1.7 "Open Sans", sans-serif;
 		}
 
 		.testimonial__quote {
@@ -346,6 +363,10 @@
 
 		.testimonial, .features {
 			width: 320px;
+		}
+
+		.testimonial__heading {
+			font: 700 1.2em/1.5 "Open Sans", sans-serif;
 		}
 
 		.testimonial__quote {
