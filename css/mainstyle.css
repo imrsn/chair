@@ -337,7 +337,7 @@
 			font: 300 2.5em/1.9 "Open Sans", sans-serif;
 		}
 
-		.features__heading {
+		.features__heading, .bottom-cta__heading {
 			font: 300 2.5em/.1 "Open Sans", sans-serif;
 		}
 
@@ -413,7 +413,7 @@
 			font: 400 1.5em/1.2 'Josefin Slab', serif;
 		}
 
-		.features__heading {
+		.features__heading, .bottom-cta__heading {
 			font: 300 2em/.1 "Open Sans", sans-serif;
 		}
 
@@ -453,7 +453,7 @@
 			font: 400 1em/1.2 'Josefin Slab', serif;
 		}
 
-		.features__heading {
+		.features__heading, .bottom-cta__heading {
 			font: 700 1.2em/.1 "Open Sans", sans-serif;
 		}
 
