@@ -281,8 +281,6 @@
 		}
 	}
 
-/*
-
 /* RESPONSIVE */
 /**************/
 
@@ -342,6 +340,10 @@
 		}
 			.testimonial__quote-sophia {
 			font: 400 1em/1.2 'Josefin Slab', serif;
+		}
+
+		.main-nav__subhead {
+			display: none;
 		}
 	}
 
