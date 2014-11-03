@@ -1,13 +1,102 @@
 /*
 *
-* BODY
-* Header................Nav styling.
-* Testimonial...........Video and quote styling.
+* BASE
+* Headings.............H1–H6 styles
+* Subheadings..........Subheading styles outside
+* .....................the document outline
+* Text.................Paragraphs, ems, b, etc
+*
+* OBJECTS
+* Wrappers.............Wrapping and container elements
+*
+* COMPONENTS
+* Buttons..............Button elements
+*
+* ANIMATION
+* Pulse................Shrink and expand pulsing
+*
+* RESPONSIVE
+* Breakpoints..........960, 640, 560, 480
 *
 */
 
-/* BODY */
 /********/
+/* BASE */
+/********/
+
+/* Headings */
+/************/
+
+	.main-nav__logo {
+		display: inline;
+		font-size: 1.3em;
+		margin: 0 .6em 0 1.5em;
+	}
+
+	.testimonial__heading {
+		color: #2f373d;
+		font: 300 3em/1.9 "Open Sans", sans-serif;
+		text-align: center;
+	}
+
+	.features__heading {
+		color: #2f373d;
+		font: 300 3em/.1 "Open Sans", sans-serif;
+		text-align: center;
+	}
+
+	.bottom-cta__heading {
+		color: #2f373d;
+		font: 300 3em/.1 "Open Sans", sans-serif;
+		text-align: center;
+	}
+
+/* Subheadings */
+/***************/
+
+	.main-nav__subhead {
+		display: inline;
+		font-size: .8em;
+		padding-top: 6px;
+		margin: 0 ;
+	}
+
+	.features__subhead {
+		font-size: .9em;
+		text-align: center;
+	}
+
+	.bottom-cta__subhead {
+		text-align: center;
+	}
+
+/* Text */
+/********/
+
+	.testimonial__quote {
+		font: 400 1.8em/1.5 'Josefin Slab', serif;
+	}
+
+	.testimonial__quote b {
+		color: #8da5b7;
+	}
+
+	.features__link {
+		text-decoration: none;
+		color: rgb(85, 99, 110);
+	}
+
+	.main-footer__contact-link {
+		float: left;
+		font-size: 1em;
+		margin: 0 1.5em;
+		color: rgb(157, 171, 178);
+	}
+
+/************/
+/* WRAPPERS */
+/************/
+
 	body {
 		background-color: rgb(226, 236, 241);
 	 	color: rgb(85, 99, 110);
@@ -17,9 +106,6 @@
 	.home {
 		padding-bottom: 50px;
 	}
-
-/* NAVIGATION */
-/**************/
 
 	.main-nav {
 		background-color: rgba(226, 236, 241, 0.9);
@@ -34,22 +120,106 @@
 		z-index: 1;
 	}
 
-		.main-nav__logo {
-			display: inline;
-			font-size: 1.3em;
-			margin: 0 .6em 0 1.5em;
-		}
+	.testimonial {
+		line-height: 1.25em;
+		margin: 0 auto;
+		padding-bottom: 50px;
+		padding-top: 60px;
+	}
 
-		.main-nav__subhead {
-			display: inline;
-			font-size: .8em;
-			padding-top: 6px;
-			margin: 0 ;
-		}
+	.testimonial__responsive-video-wrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
 
+	.testimonial__responsive-video-wrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 
-/* BUTTONS */
-/***********/
+	.features-bgfill {
+		background-color: #eaf1f5;
+		padding: 40px 0;
+	}
+
+	.features {
+		margin: 0 auto;
+	}
+
+	.features__list {
+		margin: 0;
+	    -webkit-columns: 440px;
+  		-moz-columns: 440px;
+  		columns: 440px;
+  		padding: 0;
+		-webkit-column-gap: 2em;
+  		-moz-column-gap: 2em;
+		column-gap: 2em;
+	}
+
+	li {
+		list-style: none;
+		background-size: 440px 275px;
+		background-repeat: no-repeat;
+		padding: 280px 0 30px;
+		font-size: 1.3em;
+		margin-top: 20px;
+		text-align: left;
+		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+        page-break-inside: avoid; /* Firefox */
+        break-inside: avoid; /* IE 10+ */
+	}
+
+	.features__item-manage {
+		background-image: url("../img/features__item-manage.jpg");
+		text-decoration: none;
+		color: rgb(85, 99, 110);
+	}
+
+	.features__item-appointment {
+		background-image: url("../img/features__item-appointment.gif");
+	}
+
+	.features__item-cloud {
+		background-image: url("../img/features__item-cloud.gif");
+	}
+
+	.features__item-photos {
+		background-image: url("../img/features__item-photos.gif");
+	}
+
+	.features__item-themes {
+		background-image: url("../img/features__item-themes.gif");
+	}
+
+	.features__item-cta {
+		background-image: url("../img/features__item-cta.png");
+	}
+
+	.bottom-cta {
+		width: 960px;
+		margin: 0 auto;
+		padding: 40px 0 50px;
+	}
+
+	.main-footer {
+		background-color: rgba(56, 66, 70, .9);
+		border-top: 1px solid rgb(52, 61, 65);
+		bottom: 0;
+		height: 30px;
+		padding: 8px 0 0;
+		position:fixed;
+		width: 100%;
+	}
+
+/**************/
+/* COMPONENTS */
+/**************/
 
 	.pink-button {
 		background-color: rgb(255, 36, 102);
@@ -79,162 +249,8 @@
 		width: 90px;
 		}
 
-/* TESTIMONIAL */
-/***************/
 
-	.testimonial {
-		line-height: 1.25em;
-		margin: 0 auto;
-		padding-bottom: 50px;
-		padding-top: 60px;
-	}
-
-	.testimonial__heading {
-		color: #2f373d;
-		font: 300 3em/1.9 "Open Sans", sans-serif;
-		text-align: center;
-	}
-
-	.testimonial__responsive-video-wrapper {
-		position: relative;
-		padding-bottom: 56.25%; /* 16:9 */
-		padding-top: 25px;
-		height: 0;
-	}
-
-	.testimonial__responsive-video-wrapper iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-
-	.testimonial__quote {
-		font: 400 1.8em/1.5 'Josefin Slab', serif;
-	}
-
-	.testimonial__quote b {
-		color: #8da5b7;
-	}
-
-/* FEATURES */
-/************/
-
-	.features-bgfill {
-		background-color: #eaf1f5;
-		padding: 40px 0;
-	}
-
-	.features {
-		margin: 0 auto;
-	}
-
-	.features__heading {
-		color: #2f373d;
-		font: 300 3em/.1 "Open Sans", sans-serif;
-		text-align: center;
-	}
-
-	.features__subhead {
-		font-size: .9em;
-		text-align: center;
-	}
-
-	.features__list {
-		margin: 0;
-	    -webkit-columns: 440px;
-  		-moz-columns: 440px;
-  		columns: 440px;
-  		padding: 0;
-		-webkit-column-gap: 2em;
-  		-moz-column-gap: 2em;
-		column-gap: 2em;
-	}
-
-	li {
-		list-style: none;
-		background-size: 440px 275px;
-		background-repeat: no-repeat;
-		padding: 280px 0 30px;
-		font-size: 1.3em;
-		margin-top: 20px;
-		text-align: left;
-		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
-        page-break-inside: avoid; /* Firefox */
-        break-inside: avoid; /* IE 10+ */
-	}
-
-	.features__link {
-		text-decoration: none;
-		color: rgb(85, 99, 110);
-	}
-
-	.features__item-manage {
-		background-image: url("../img/features__item-manage.jpg");
-		text-decoration: none;
-		color: rgb(85, 99, 110);
-	}
-
-	.features__item-appointment {
-		background-image: url("../img/features__item-appointment.gif");
-	}
-
-	.features__item-cloud {
-		background-image: url("../img/features__item-cloud.gif");
-	}
-
-	.features__item-photos {
-		background-image: url("../img/features__item-photos.gif");
-	}
-
-	.features__item-themes {
-		background-image: url("../img/features__item-themes.gif");
-	}
-
-	.features__item-cta {
-		background-image: url("../img/features__item-cta.png");
-	}
-
-
-/* CTA*/
-/***********/
-
-	.bottom-cta {
-		width: 960px;
-		margin: 0 auto;
-		padding: 40px 0 50px;
-	}
-	.bottom-cta__heading {
-		color: #2f373d;
-		font: 300 3em/.1 "Open Sans", sans-serif;
-		text-align: center;
-	}
-
-	.bottom-cta__paragraph {
-		text-align: center;
-	}
-
-
-/* FOOTER */
-/**********/
-	.main-footer {
-		background-color: rgba(56, 66, 70, .9);
-		border-top: 1px solid rgb(52, 61, 65);
-		bottom: 0;
-		height: 30px;
-		padding: 8px 0 0;
-		position:fixed;
-		width: 100%;
-	}
-
-	.main-footer__contact-link {
-		float: left;
-		font-size: 1em;
-		margin: 0 1.5em;
-		color: rgb(157, 171, 178);
-	}
-
+/**************/
 /*  ANIMATION */
 /**************/
 
@@ -281,6 +297,7 @@
 		}
 	}
 
+/**************/
 /* RESPONSIVE */
 /**************/
 
@@ -292,7 +309,6 @@
 		.features, .testimonial {
 			width: 960px;
 		}
-
 	}
 
 	@media (max-width: 960px) {
@@ -346,5 +362,3 @@
 			display: none;
 		}
 	}
-
-
