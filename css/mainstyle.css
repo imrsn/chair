@@ -358,7 +358,6 @@
 		.features__item--themes,
 		.features__item--cta {
 			background-size: 300px 188px;
-			background-repeat: no-repeat;
 			padding: 195px 0 30px;
 			font-size: 1em;
 		}
@@ -393,7 +392,6 @@
 		.features__item--themes,
 		.features__item--cta {
 			background-size: 260px 163px;
-			background-repeat: no-repeat;
 			padding: 170px 0 30px;
 			font-size: .85em;
 		}
@@ -418,6 +416,24 @@
 
 		.features__heading {
 			font: 300 2em/.1 "Open Sans", sans-serif;
+		}
+
+		.features__items {
+			padding-left: 20px;
+			-webkit-columns: 440px;
+			-moz-columns: 440px;
+			columns: 440px;
+		}
+
+		.features__item--manage,
+		.features__item--appointment,
+		.features__item--cloud,
+		.features__item--photos,
+		.features__item--themes,
+		.features__item--cta {
+			background-size: 440px 275px;
+			padding: 280px 0 30px;
+			font-size: 1.3em;
 		}
 	}
 
@@ -444,5 +460,23 @@
 
 		.main-nav__subhead {
 			display: none;
+		}
+
+		.features__items {
+			padding-left: 20px;
+			-webkit-columns: 300px;
+			-moz-columns: 300px;
+			columns: 300px;
+		}
+
+		.features__item--manage,
+		.features__item--appointment,
+		.features__item--cloud,
+		.features__item--photos,
+		.features__item--themes,
+		.features__item--cta {
+			background-size: 300px 188px;
+			padding: 195px 0 25px;
+			font-size: 1em;
 		}
 	}
