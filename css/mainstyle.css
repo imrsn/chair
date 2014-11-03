@@ -306,15 +306,8 @@
 
 	@media (min-width: 960px) {
 
-		.features, .testimonial {
+		.testimonial, .features {
 			width: 960px;
-		}
-	}
-
-	@media (max-width: 960px) {
-
-		.features, .testimonial {
-			width: 640px;
 		}
 	}
 
@@ -323,11 +316,11 @@
 
 	@media (max-width: 640px) {
 
-		.features, .testimonial {
+		.testimonial, .features {
 			width: 560px;
 		}
 
-		.testimonial__quote-sophia {
+		.testimonial__quote {
 			font: 400 1.6em/1.3 'Josefin Slab', serif;
 		}
 	}
@@ -337,11 +330,11 @@
 
 	@media (max-width: 560px) {
 
-		.features, .testimonial {
+		.testimonial, .features {
 			width: 480px;
 		}
 
-		.testimonial__quote-sophia {
+		.testimonial__quote {
 			font: 400 1.5em/1.2 'Josefin Slab', serif;
 		}
 	}
@@ -351,10 +344,11 @@
 
 	@media (max-width: 480px) {
 
-		.features, .testimonial {
+		.testimonial, .features {
 			width: 320px;
 		}
-			.testimonial__quote-sophia {
+
+		.testimonial__quote {
 			font: 400 1em/1.2 'Josefin Slab', serif;
 		}
 
