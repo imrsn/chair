@@ -25,6 +25,8 @@
 /* BASE */
 /********/
 
+* { box-sizing: border-box }
+
 /* Headings */
 /************/
 
@@ -304,15 +306,14 @@
 			column-gap: 1.5em;
 		}
 
-		.features__item--manage,
-		.features__item--appointment,
-		.features__item--cloud,
-		.features__item--photos,
-		.features__item--themes,
-		.features__item--cta {
-			background-size: 300px 188px;
-			padding: 195px 0 30px;
-			font-size: 1em;
+		.features__item {
+			width: 300px;
+			font-size: .9em;
+		}
+
+		.features__image {
+			width: 300px;
+			height: 188px;
 		}
  	}
 
@@ -338,15 +339,14 @@
 			column-gap: 1em;
 		}
 
-		.features__item--manage,
-		.features__item--appointment,
-		.features__item--cloud,
-		.features__item--photos,
-		.features__item--themes,
-		.features__item--cta {
-			background-size: 260px 163px;
-			padding: 170px 0 30px;
+		.features__item {
+			width: 260px;
 			font-size: .85em;
+		}
+
+		.features__image {
+			width: 260px;
+			height: 163px;
 		}
 	}
 
@@ -378,15 +378,14 @@
 			columns: 440px;
 		}
 
-		.features__item--manage,
-		.features__item--appointment,
-		.features__item--cloud,
-		.features__item--photos,
-		.features__item--themes,
-		.features__item--cta {
-			background-size: 440px 275px;
-			padding: 280px 0 30px;
+		.features__item {
+			width: 440px;
 			font-size: 1.3em;
+		}
+
+		.features__image {
+			width: 440px;
+			height: 275px;
 		}
 	}
 
@@ -422,14 +421,13 @@
 			columns: 300px;
 		}
 
-		.features__item--manage,
-		.features__item--appointment,
-		.features__item--cloud,
-		.features__item--photos,
-		.features__item--themes,
-		.features__item--cta {
-			background-size: 300px 188px;
-			padding: 195px 0 25px;
-			font-size: 1em;
+		.features__item {
+			width: 300px;
+			font-size: .9em;
+		}
+
+		.features__image {
+			width: 300px;
+			height: 188px;
 		}
 	}
