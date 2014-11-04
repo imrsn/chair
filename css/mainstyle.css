@@ -8,6 +8,7 @@
 *
 * OBJECTS
 * Wrappers.............Wrapping and container elements
+* Images...............Because it's not a wrapper
 *
 * COMPONENTS
 * Buttons..............Button elements
@@ -157,57 +158,18 @@
   		-moz-columns: 440px;
   		columns: 440px;
   		padding: 0;
-		-webkit-column-gap: 2em;
-  		-moz-column-gap: 2em;
-		column-gap: 2em;
+		-webkit-column-gap: 1em;
+  		-moz-column-gap: 1em;
+		column-gap: 1em;
 	}
 
-	.features__item--manage {
-		background-image: url("../img/features__item-manage.jpg");
-		background-size: 440px 275px;
-		background-repeat: no-repeat;
-		padding: 280px 0 30px;
-		font-size: 1.3em;
+	.features__item {
+		width: 440px;
 	}
 
-	.features__item--appointment {
-		background-image: url("../img/features__item-appointment.gif");
-		background-size: 440px 275px;
-		background-repeat: no-repeat;
-		padding: 280px 0 30px;
-		font-size: 1.3em;
-	}
-
-	.features__item--cloud {
-		background-image: url("../img/features__item-cloud.gif");
-		background-size: 440px 275px;
-		background-repeat: no-repeat;
-		padding: 280px 0 30px;
-		font-size: 1.3em;
-	}
-
-	.features__item--photos {
-		background-image: url("../img/features__item-photos.gif");
-		background-size: 440px 275px;
-		background-repeat: no-repeat;
-		padding: 280px 0 30px;
-		font-size: 1.3em;
-	}
-
-	.features__item--themes {
-		background-image: url("../img/features__item-themes.gif");
-		background-size: 440px 275px;
-		background-repeat: no-repeat;
-		padding: 280px 0 30px;
-		font-size: 1.3em;
-	}
-
-	.features__item--cta {
-		background-image: url("../img/features__item-cta.png");
-		background-size: 440px 275px;
-		background-repeat: no-repeat;
-		padding: 280px 0 30px;
-		font-size: 1.3em;
+	.features__image {
+		width: 440px;
+		height: 275px;
 	}
 
 	.bottom-cta {
