@@ -170,6 +170,7 @@
 	}
 
 	.features__image {
+		margin-top: 20px;
 		width: 440px;
 		height: 275px;
 	}
