@@ -500,4 +500,38 @@ header.navigation {
           box-sizing: border-box;
           display: block; } }
 
+.table-minimal {
+  border-collapse: separate;
+  border-spacing: 0; }
+  .table-minimal tbody tr:hover > td, .table-minimal tbody tr:hover > th {
+    background-color: #fafafa; }
+  .table-minimal tbody tr:first-child td {
+    border-top: 2px solid #DDD; }
+  .table-minimal thead th {
+    background-color: white;
+    padding: 0.75em 1em;
+    border-bottom: 0px; }
+  .table-minimal tbody {
+    background-color: white; }
+    .table-minimal tbody td {
+      padding: 0.75em 1em;
+      border-top: 1px solid #DDD;
+      border-bottom: 0px; }
+      .table-minimal tbody td button, .table-minimal tbody td header.navigation .sign-up, header.navigation .table-minimal tbody td .sign-up {
+        padding: .5em 1em .6em;
+        font-size: .7em;
+        margin-right: 0.5em;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: .3em;
+        outline: none; }
+        @media screen and (min-width: 40em) {
+          .table-minimal tbody td button, .table-minimal tbody td header.navigation .sign-up, header.navigation .table-minimal tbody td .sign-up {
+            width: auto;
+            font-size: .8em;
+            margin-bottom: 0; } }
+        @media screen and (min-width: 53.75em) {
+          .table-minimal tbody td button, .table-minimal tbody td header.navigation .sign-up, header.navigation .table-minimal tbody td .sign-up {
+            font-size: .8em; } }
+
 /*# sourceMappingURL=styles.css.map */
