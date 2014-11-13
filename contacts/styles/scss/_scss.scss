@@ -1,0 +1,10 @@
+div.parent {
+  @include display(flex);
+  @include align-items(stretch);
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+}
+
+div.parent > div.child {
+  @include flex(1);
+}
