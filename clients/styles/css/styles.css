@@ -283,7 +283,7 @@ header.navigation {
     float: none; }
     @media screen and (min-width: 53.75em) {
       header.navigation .nav {
-        float: left; } }
+        float: right; } }
   header.navigation ul#navigation-menu {
     -webkit-transform-style: preserve-3d;
     clear: both;
